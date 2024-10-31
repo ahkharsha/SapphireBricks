@@ -1,7 +1,7 @@
 import realEstate from "./RealEstate.json";
 require("dotenv").config();
 
-export const REAL_ESTATE_ADDRESS = "0xb06cbBeAE36EdBa7a14D733E8aE922a29630c7C1";
+export const REAL_ESTATE_ADDRESS = "0xF859e215A276EC632Fb46DCca4EbccF99C8993D2";
 export const REAL_ESTATE_ABI = realEstate.abi;
 
 export const PINATA_API_KEY = "da212708ca61ceb1b91d";
@@ -9,27 +9,16 @@ export const PINATA_SECRET_KEY = "ce9bea71753244b0e67a0b3039e09889b69d15b863d25f
 
 // NETWORK
 const networks = {
-  // emc_mainnet: {
-  //   chainId: Waiting for launch...,
-  //   chainName: Waiting for launch...,
-  //   nativeCurrency: {
-  //     name: "EMC",
-  //     symbol: "EMC",
-  //     decimals: 18,
-  //   },
-  //   rpcUrls: Waiting for launch...,
-  //   blockExplorerUrls: Waiting for launch...,
-  // },
-  emc_testnet: {
-    chainId: `0x${Number(99876).toString(16)}`,
-    chainName: "EMC Testnet",
+  sapphire_testnet: {
+    chainId: `0x${Number(23295).toString(16)}`,
+    chainName: "Oasis Sapphire Testnet",
     nativeCurrency: {
-      name: "EMC",
-      symbol: "EMC",
+      name: "TEST",
+      symbol: "TEST",
       decimals: 18,
     },
-    rpcUrls: ["https://rpc1-testnet.emc.network"],
-    blockExplorerUrls: ["https://testnet.emcscan.com"],
+    rpcUrls: ["https://testnet.sapphire.oasis.io"],
+    blockExplorerUrls: ["https://explorer.oasis.io/testnet/sapphire"],
   },
   polygon_amoy: {
     chainId: `0x${Number(80002).toString(16)}`,

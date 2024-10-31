@@ -21,10 +21,10 @@ The platform is live and can be accessed at:
 
 ## 📜 **Smart Contract**
 
-The Smart Contract is deployed on the Oasis Sapphire Testnet T4 at [0xF859e215A276EC632Fb46DCca4EbccF99C8993D2](https://testnet.aiascan.com/address/0xF859e215A276EC632Fb46DCca4EbccF99C8993D2).  
+The Smart Contract is deployed on the Oasis Sapphire Testnet at [0xF859e215A276EC632Fb46DCca4EbccF99C8993D2](https://explorer.oasis.io/testnet/sapphire/address/0xF859e215A276EC632Fb46DCca4EbccF99C8993D2).  
 Visit the link below to view it on the explorer!
 
-**🔗 [SapphireBricks Smart Contract](https://testnet.aiascan.com/address/0xF859e215A276EC632Fb46DCca4EbccF99C8993D2)**
+**🔗 [SapphireBricks Smart Contract](https://explorer.oasis.io/testnet/sapphire/address/0xF859e215A276EC632Fb46DCca4EbccF99C8993D2)**
 
 ---
 
